@@ -9,28 +9,28 @@ export interface IProject {
 
 export const projects:IProject[] = [
     {
-        img: "0",
+        img: "https://i.imgur.com/imWZuay.png",
         badges: ["React", "i18next", "Redux Toolkit", "React Router"],
         description: "Project with articles where users can add his own articles and and read other.",
         hrefLink: "https://github.com/Reecure/pet-project",
         title: "Pet Project",
-        vercelLink: ""
+        vercelLink: "https://zingy-cassata-356a57.netlify.app/"
     },
     {
-        img: "0",
+        img: "https://i.imgur.com/qsAZfuQ.png",
         badges: ["Nextjs", "Redux Toolkit", "tRPC"],
         description: "Here you can create your own course.You can check your statistic on every course. I write this project for diploma ",
         hrefLink: "https://github.com/Reecure/e-learning",
         title: "E-learning",
-        vercelLink: "https://vercel.com/reecure/e-learning2"
+        vercelLink: "https://e-learning2-jj543y4xw-reecure.vercel.app/"
     },
     {
-        img: "0",
+        img: "https://i.imgur.com/wOYuxRq.png",
         badges: ["React", "Redux Toolkit", "SCSS", "React Router"],
         description: "React pizza project where you can add pizza to cart and order it.",
         hrefLink: "https://github.com/Reecure/pizza-shop",
         title: "React Pizza",
-        vercelLink: "https://pizza-shop-neon-nu.vercel.app"
+        vercelLink: "https://pizza-shop-neon-nu.vercel.app/"
     }
 
 ];

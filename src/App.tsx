@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero.tsx";
 import Projects from "./components/Projects/Projects.tsx";
 
 function App() {
+
     return (
         <Container>
             <Navbar />

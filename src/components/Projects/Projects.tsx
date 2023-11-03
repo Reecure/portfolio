@@ -1,6 +1,6 @@
 import {FC} from "react";
 import ProjectCard from "../ProjectCard/ProjectCard.tsx";
-import {projects} from "../../entetis/projects.ts";
+import {projects} from "../../enteties/projects.ts";
 
 interface Props {
 }
