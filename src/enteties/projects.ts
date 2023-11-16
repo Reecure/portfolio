@@ -31,6 +31,14 @@ export const projects:IProject[] = [
         hrefLink: "https://github.com/Reecure/pizza-shop",
         title: "React Pizza",
         vercelLink: "https://pizza-shop-neon-nu.vercel.app/"
+    },
+    {
+        img: "https://i.imgur.com/w0WnCGr.png",
+        badges: ["React", "Redux Toolkit", "CSS",],
+        description: "Simple game rock-paper-scissors vs computer",
+        hrefLink: "https://github.com/Reecure/rock-paper-scissors",
+        title: "Rock-Paper-Scissors",
+        vercelLink: "https://rock-paper-scissors-sand-five.vercel.app/"
     }
 
 ];

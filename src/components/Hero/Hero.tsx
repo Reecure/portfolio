@@ -11,7 +11,9 @@ const Hero: FC<Props> = () => {
             <div className={"flex flex-col gap-3"}>
                 <h3 className={"text-3xl md:text-6xl text-green-default font-bold"}>Pirian Yurii.</h3>
                 <p className={"text-md md:text-lg font-bold"}>Web developer. Frontend enjoyer...</p>
-                <Button className={""}>View CV</Button>
+                <a href={"../../../public/CV.pdf"} target={"_blank"}>
+                    <Button className={""}>View CV</Button>
+                </a>
             </div>
             <div>
                 <Avatar />
