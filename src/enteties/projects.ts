@@ -22,7 +22,7 @@ export const projects:IProject[] = [
         description: "Here you can create your own course.You can check your statistic on every course. I write this project for diploma ",
         hrefLink: "https://github.com/Reecure/e-learning",
         title: "E-learning",
-        vercelLink: "https://e-learning2-jj543y4xw-reecure.vercel.app/"
+        vercelLink: "e-learning2-fuqjxwxkz-reecure.vercel.app/"
     },
     {
         img: "https://i.imgur.com/wOYuxRq.png",
