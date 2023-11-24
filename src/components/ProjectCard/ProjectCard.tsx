@@ -10,9 +10,9 @@ interface Props {
 
 const ProjectCard: FC<Props> = ({project}) => {
     return (
-        <div className={"flex flex-col lg:flex-row justify-around border-2 border-green-default w-full rounded-md px-5 py-3 hover:scale-[1.01] duration-300"}>
+        <div className={"flex flex-col lg:flex-row lg:gap-10 border-2 border-green-default w-full rounded-md px-5 py-3 hover:scale-[1.01] duration-300"}>
             <img src={project.img} className={"mx-auto lg:mx-0 w-52 h-32 object-cover"} />
-            <div className={"flex flex-col justify-center gap-5"}>
+            <div className={"flex flex-col gap-5 w-full mx-auto"}>
                 <div className={"flex flex-col lg:flex-row  gap-5 items-center"}>
                     <h5 className={"text-3xl font-bold"}>{project.title}</h5>
                     <div className={"flex flex-wrap gap-2"}>
