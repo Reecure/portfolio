@@ -25,8 +25,8 @@ const ProjectCard: FC<Props> = ({project}) => {
                 </div>
                 <p className={"max-w-[530px]"}>{project.description}</p>
                 <div className={"flex items-center gap-5"}>
-                    <a href={project.hrefLink} className={"text-green-default underline text-lg hover:text-green-default/60 duration-500"}>Learn more...</a>
-                    <a href={project.vercelLink}>
+                    <a href={project.hrefLink} target={"_blank"} className={"text-green-default underline text-lg hover:text-green-default/60 duration-500"}>Learn more...</a>
+                    <a href={project.vercelLink} target={"_blank"}>
                         <Button className={""} >Preview</Button>
                     </a>
                 </div>

@@ -10,19 +10,11 @@ export interface IProject {
 export const projects:IProject[] = [
     {
         img: "https://i.imgur.com/qsAZfuQ.png",
-        badges: ["Nextjs", "Redux Toolkit", "tRPC"],
-        description: "Here user can create his own course.User can check himself statistic on every course. I write this project for diploma ",
+        badges: ["Nextjs", "Redux Toolkit", "tRPC", "MongoDB", "Prisma"],
+        description: "Project about courses, where user can create courses or study. I write this project for diploma. test-email: example@gmail.com , test-password: 12345678",
         hrefLink: "https://github.com/harukiOy/e-learning",
         title: "E-learning",
         vercelLink: "https://e-learning2-fuqjxwxkz-reecure.vercel.app/"
-    },
-    {
-        img: "https://i.imgur.com/imWZuay.png",
-        badges: ["React", "i18next", "Redux Toolkit", "React Router"],
-        description: "Project with articles where users can add his own articles and and read other. test-email: admin , test-password: 123",
-        hrefLink: "https://github.com/harukiOy/pet-project",
-        title: "Pet Project",
-        vercelLink: "https://zingy-cassata-356a57.netlify.app/"
     },
     {
         img: "https://i.imgur.com/q8nxCiE.png",
@@ -33,8 +25,16 @@ export const projects:IProject[] = [
         vercelLink: "https://hacker-news-pj5yhs2la-reecure.vercel.app"
     },
     {
+        img: "https://i.imgur.com/imWZuay.png",
+        badges: ["React", "i18next", "Redux Toolkit", "React Router"],
+        description: "Project with articles where users can add his own articles and and read other. test-email: admin , test-password: 123",
+        hrefLink: "https://github.com/harukiOy/pet-project",
+        title: "Pet Project",
+        vercelLink: "https://zingy-cassata-356a57.netlify.app/"
+    },
+    {
         img: "https://i.imgur.com/wOYuxRq.png",
-        badges: ["Nextjs", "Redux Toolkit", "SCSS", "React Router"],
+        badges: ["React", "Redux Toolkit", "SCSS", "React Router"],
         description: "React pizza project where you can add pizza to cart and order it.",
         hrefLink: "https://github.com/harukiOy/pizza-shop",
         title: "React Pizza",
