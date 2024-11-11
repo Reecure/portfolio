@@ -9,6 +9,14 @@ export interface IProject {
 
 export const projects:IProject[] = [
     {
+        img: "https://kappa.lol/GCIb9",
+        badges: ["React", "Redux Toolkit", "Tailwind", "React Router"],
+        description: "Marketplace for sale and buy products. Have admin panels for sellers and administration and more functionality. User can find here all what they want.",
+        hrefLink: "https://github.com/kamilka13me/marketplace_teamchallenge",
+        title: "Peach Marketplace startup",
+        vercelLink: "https://marketplace-teamchallenge.vercel.app/"
+    },
+    {
         img: "https://i.imgur.com/qsAZfuQ.png",
         badges: ["Nextjs", "Redux Toolkit", "tRPC", "MongoDB", "Prisma"],
         description: "Project about courses, where user can create courses or study. I write this project for diploma. test-email: example@gmail.com , test-password: 12345678",
